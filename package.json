@@ -1,0 +1,36 @@
+{
+  "name": "parse-site-to-tg",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "bot-start": "node dist/bot.js",
+    "dev": "npm run build && npm start",
+    "bot-dev": "npm run build && npm run bot-start"
+  },
+  "author": "Andrew Piskunov",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^11.0.0",
+    "mongoose": "^6.1.6",
+    "telegraf": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.30",
+    "@types/dotenv": "^8.2.0",
+    "@types/mongoose": "^5.11.97",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "typescript": "^4.5.4"
+  }
+}
